@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 10.7px 0.0px; font: 16.0px 'Times New Roman'; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;title&gt;East Africa Beverage Stand Simulator&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;!-- Tailwind CSS for clean, modern mobile styling --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;script src="https://jsdelivr.net"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body class="bg-gray-100 font-sans p-4 text-gray-800"&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;div class="max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;!-- Header --&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="bg-yellow-500 p-4 text-white text-center"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h1 class="text-xl font-bold uppercase tracking-wide text-black"&gt;Stand Profit Simulator&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;p class="text-xs text-black font-medium"&gt;Transit Hub Optimization Engine&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;!-- Input Section --&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="p-5 space-y-4"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label class="block text-xs font-bold uppercase text-gray-500 mb-1"&gt;Serving Size (ml)&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;input type="number" id="cupSize" value="300" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label class="block text-xs font-bold uppercase text-gray-500 mb-1"&gt;Daily Sales Target (Units)&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;input type="number" id="dailySales" value="250" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label class="block text-xs font-bold uppercase text-gray-500 mb-1"&gt;Bulk Ingredient Cost / Litre (KES)&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;input type="number" id="ingCost" value="40" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label class="block text-xs font-bold uppercase text-gray-500 mb-1"&gt;Packaging Cost / Unit (KES)&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;input type="number" id="pkgCost" value="8" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label class="block text-xs font-bold uppercase text-gray-500 mb-1"&gt;Average Selling Price (KES)&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;input type="number" id="sellPrice" value="50" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label class="block text-xs font-bold uppercase text-gray-500 mb-1"&gt;Monthly Fixed Overheads (KES)&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;input type="number" id="fixedCosts" value="45000" class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;!-- Output Metric Dashboard --&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="bg-gray-900 text-white p-5 space-y-4"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h2 class="text-xs font-bold uppercase text-yellow-500 tracking-wider"&gt;Projected Performance (30 Days)&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">           <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">            &lt;div class="grid grid-cols-2 gap-4"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;div class="bg-gray-800 p-3 rounded-lg border border-gray-700"&gt;</span></p>
+<p class="p1"><span class="s1">                    &lt;span class="block text-[10px] uppercase text-gray-400 font-bold"&gt;Total Units / Mo&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">                    &lt;span id="outTotalUnits" class="text-lg font-extrabold text-white"&gt;0&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;div class="bg-gray-800 p-3 rounded-lg border border-gray-700"&gt;</span></p>
+<p class="p1"><span class="s1">                    &lt;span class="block text-[10px] uppercase text-gray-400 font-bold"&gt;Unit Production COGS&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">                    &lt;span id="outCogs" class="text-lg font-extrabold text-white"&gt;KES 0.00&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            &lt;div id="profitBanner" class="p-4 rounded-lg bg-green-900 border border-green-600 text-center"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;span class="block text-xs uppercase font-bold text-green-300"&gt;Projected Monthly Net Profit&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;span id="outNetProfit" class="text-3xl font-black block my-1 text-green-400"&gt;KES 0.00&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;span id="outMargin" class="text-xs font-medium text-white block"&gt;Net Margin: 0%&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;!-- Live Calculation Engine Script --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;script&gt;</span></p>
+<p class="p1"><span class="s1">        function calculateMargins() {</span></p>
+<p class="p1"><span class="s1">            // Fetch inputs</span></p>
+<p class="p1"><span class="s1">            const cupSize = parseFloat(document.getElementById('cupSize').value) || 0;</span></p>
+<p class="p1"><span class="s1">            const dailySales = parseFloat(document.getElementById('dailySales').value) || 0;</span></p>
+<p class="p1"><span class="s1">            const ingCostPerLitre = parseFloat(document.getElementById('ingCost').value) || 0;</span></p>
+<p class="p1"><span class="s1">            const pkgCostPerUnit = parseFloat(document.getElementById('pkgCost').value) || 0;</span></p>
+<p class="p1"><span class="s1">            const sellPrice = parseFloat(document.getElementById('sellPrice').value) || 0;</span></p>
+<p class="p1"><span class="s1">            const fixedCosts = parseFloat(document.getElementById('fixedCosts').value) || 0;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            // Operational Logic Metrics</span></p>
+<p class="p1"><span class="s1">            const monthlyVolumeUnits = dailySales * 30;</span></p>
+<p class="p1"><span class="s1">            const ingredientCostPerUnit = (cupSize / 1000) * ingCostPerLitre;</span></p>
+<p class="p1"><span class="s1">            const totalVariableCostPerUnit = ingredientCostPerUnit + pkgCostPerUnit;</span></p>
+<p class="p1"><span class="s1">           <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">            const monthlyRevenue = monthlyVolumeUnits * sellPrice;</span></p>
+<p class="p1"><span class="s1">            const monthlyVariableCosts = monthlyVolumeUnits * totalVariableCostPerUnit;</span></p>
+<p class="p1"><span class="s1">            const monthlyNetProfit = monthlyRevenue - monthlyVariableCosts - fixedCosts;</span></p>
+<p class="p1"><span class="s1">           <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">            const netMarginPercent = monthlyRevenue &gt; 0 ? ((monthlyNetProfit / monthlyRevenue) * 100).toFixed(1) : 0;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            // Render calculations cleanly onto display badges</span></p>
+<p class="p1"><span class="s1">            document.getElementById('outTotalUnits').innerText = monthlyVolumeUnits.toLocaleString();</span></p>
+<p class="p1"><span class="s1">            document.getElementById('outCogs').innerText = 'KES ' + totalVariableCostPerUnit.toFixed(2);</span></p>
+<p class="p1"><span class="s1">            document.getElementById('outNetProfit').innerText = 'KES ' + monthlyNetProfit.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});</span></p>
+<p class="p1"><span class="s1">            document.getElementById('outMargin').innerText = 'Net Margin: ' + netMarginPercent + '%';</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">            // Dynamic Risk Threshold Styling</span></p>
+<p class="p1"><span class="s1">            const banner = document.getElementById('profitBanner');</span></p>
+<p class="p1"><span class="s1">            if(monthlyNetProfit &lt; 0) {</span></p>
+<p class="p1"><span class="s1">                banner.className = "p-4 rounded-lg bg-red-950 border border-red-700 text-center";</span></p>
+<p class="p1"><span class="s1">                banner.firstElementChild.className = "block text-xs uppercase font-bold text-red-400";</span></p>
+<p class="p1"><span class="s1">                document.getElementById('outNetProfit').className = "text-3xl font-black block my-1 text-red-500";</span></p>
+<p class="p1"><span class="s1">            } else {</span></p>
+<p class="p1"><span class="s1">                banner.className = "p-4 rounded-lg bg-gray-800 border border-green-600 text-center";</span></p>
+<p class="p1"><span class="s1">                banner.firstElementChild.className = "block text-xs uppercase font-bold text-green-400";</span></p>
+<p class="p1"><span class="s1">                document.getElementById('outNetProfit').className = "text-3xl font-black block my-1 text-green-400";</span></p>
+<p class="p1"><span class="s1">            }</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        // Attach recalculation event triggers to every field for realtime execution</span></p>
+<p class="p1"><span class="s1">        const inputs = ['cupSize', 'dailySales', 'ingCost', 'pkgCost', 'sellPrice', 'fixedCosts'];</span></p>
+<p class="p1"><span class="s1">        inputs.forEach(id =&gt; document.getElementById(id).addEventListener('input', calculateMargins));</span></p>
+<p class="p1"><span class="s1">       <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">        // Run baseline setup on first launch</span></p>
+<p class="p1"><span class="s1">        calculateMargins();</span></p>
+<p class="p1"><span class="s1">    &lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
